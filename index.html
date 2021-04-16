@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css">
+    <link rel="icon" href="./assets/images/logo/kreeksend.png" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" href="./assets/custom/styles.css">
+
+    <title>KreekSend</title>
+  
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light main-navbar" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./assets/images/logo/kreeksend.png" class="logo" alt="KreekSend logo"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown mr-5">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Solutions
+              </a>
+              <div class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarDropdown1">
+                <a class="dropdown-item" href="./email-campaign.html">Launch a campaign</a>
+                <a class="dropdown-item" href="#">Generate Leads</a>
+                <a class="dropdown-item" href="#">Nurture Leads</a>
+                <a class="dropdown-item" href="#">Engage Customers</a>
+                <a class="dropdown-item" href="#">Send Bulk SMS</a>
+                <a class="dropdown-item" href="#">Send Bulk Email</a>
+                <a class="dropdown-item" href="#">Social Media Templates</a>
+
+              </div>
+            </li>
+
+            <li class="nav-item dropdown mr-5">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Pricing
+              </a>
+              <div class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarDropdown1">
+                <a class="dropdown-item" href="./bundles.html">Bundles</a>
+                <a class="dropdown-item" href="#">Email packages</a>
+                <a class="dropdown-item" href="#">SMS packages</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown mr-5">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact
+              </a>
+              <div class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarDropdown1">
+                <a class="dropdown-item" href="./contact-sales.html">Sales</a>
+                <a class="dropdown-item" href="./support.html">Support</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown mr-5">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Resource Center
+              </a>
+              <div class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarDropdown1">
+                <a class="dropdown-item" href="#">Blog</a>
+                <a class="dropdown-item" href="#">Help center</a>
+                <a class="dropdown-item" href="#">Tools</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown mr-5">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Kreek Africa
+              </a>
+              <div class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarDropdown1">
+                <a class="dropdown-item" href="https://kreekafrica.com/search?type=project" target="_blank">Browse projects</a>
+                <a class="dropdown-item" href="https://kreekafrica.com/create-project-front" target="_blank">Post a project</a>
+                <a class="dropdown-item" href="https://kreekafrica.com/search?type=freelancer" target="_blank">Find a freelancer</a>
+                <a class="dropdown-item" href="#">Be a freelancer</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="https://www.kreeksend.com/" class="btn btn-sm btn-outline-primary signup-btn">Signup</a> 
+            </li>
+
+            <li class="nav-item">
+              <a href="https://www.kreeksend.com/" class="btn btn-sm btn-outline-primary signin-btn">Login</a> 
+            </li>      
+  </ul>
+    </div>
+    </div>
+    </div>
+  </nav>   
+<!-- End of navbar -->
+
+  <section class="banner">
+    <div class="row">
+        <div class="col-lg-6 left-side-content">
+          <h1 class="ml4">
+            <span class="letters letters-1"><b class="word">Send</b> with ease.</span>
+            <span class="letters letters-2"><b class="word">Create</b> with ease</span>
+            <span class="letters letters-3"><b class="word">Connect</b> with ease</span>
+            <span class="letters letters-4"><b class="word">Automate</b> with ease</span>
+            <span class="letters letters-5"><b class="word">Communicate</b> with ease</span>
+
+
+          </h1>         
+           <div class="trial-box mb-5">
+            <form>
+              <div class="input-group mb-3">
+                <input type="email" name="email" class="form-control" 
+                placeholder="Email Address" 
+                aria-label="Email Address" aria-describedby="start-trial-btn" required>
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-sm" id="start-trial-btn">Start for free</button>
+                </div>
+              </div>
+            </form>
+          </div>           
+        </div>
+
+        <div class="col-lg-6 right-side-content text-center">
+          <div class="video-section">
+            <div class="video-container">
+              <img src="./assets/images/landing/illustration.png">
+              <a href="https://www.youtube.com/watch?v=VHqAq8Juw_4" target="__blank">
+                <img src="https://kreekafrica.com/public/assets/common/images/icon-play-video.png">
+              </a>
+            </div>
+          </div>
+          <!-- <img src="./assets/images/landing/illustration.png"/> -->
+        </div>
+    </div>
+  </section>
+
+  <section class="key-prepositions">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <h4 class="prepo-title"><span class="inner-span text-white">
+          <i class="fa fa-check"></i></span> Reach your customers where they are when it matters</h4>
+          <p>
+            We would hate for you to limit your communication to email. Reach your clients and prospects through SMS and social media communication. Our goal is simple, to ensure that you reach your customers through any means possible. 
+          </p>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 text-center prepo-img-box">
+        <img src="./assets/images/landing/undraw_connected_world_wuay.svg"/>
+      </div>
+    </div>
+
+    <!--End of first row-->
+
+    <div class="row" style="margin-top: 100px;">
+      <div class="col-lg-6 col-md-6 col-sm-12 text-center prepo-img-box">
+        <img src="./assets/images/landing/undraw_transfer_money_rywa.svg"/>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <h4 class="prepo-title"><span class="inner-span text-white"><i class="fa fa-check"></i></span> Spend close to nothing. Easy on your pocket</h4>
+       <p>
+        Time is money. Save both with Kreek Send. We guarantee low-cost, high-value marketing at the best rates in the industry. Feel free to compare our pricing to what MailChimp, Sendinblue, Moosend, and the rest Charge.
+       </p>
+
+      </div>
+    </div>
+    <!--End of second row-->
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12" style="margin-top: 100px;">
+        <h4 class="prepo-title"><span class="inner-span text-white"><i class="fa fa-check"></i></span> A 99% deliverabily rate assured</h4>
+        <p>Click send, and leave the rest to us. Our powerful infrastructure ensures that at least 99% of your messages are delivered. </p>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 text-center prepo-img-box" style="margin-top: 100px;">
+        <img src="./assets/images/landing/arrived.svg"/>
+      </div>
+    </div>
+    <!--End of third row-->
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 text-center prepo-img-box" style="margin-top: 100px;">
+        <img src="./assets/images/landing/undraw_Add_content_re_vgqa.svg"/>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12" style="margin-top: 100px;">
+        <h4 class="prepo-title"><span class="inner-span text-white"><i class="fa fa-check"></i></span> It's as simple as drag and drop</h4>
+        <p>No code, no stress. Insert images, GIFs and all kinds of interactive elements to create your engaging campaigns. Feel free to steal some fresh inspiration from our pre-built email and Social media templates. We cannot believe how easy this is! </p>
+      </div>
+    </div>
+    <!--End of fourth row-->
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12" style="margin-top: 120px;">
+
+        <h4 class="prepo-title"><span class="inner-span text-white"><i class="fa fa-check"></i></span> 
+          Stunning templates that promise high open-rate
+        </h4>
+        <p>We have your favorite templates to communicate with your favorite people. We created our templates with your business and your customers in mind. There are tons of templates to communicate any message.</p>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 text-center prepo-img-box" style="margin-top: 150px;">
+        <img src="./assets/images/landing/undraw_Setup_re_y9w8.svg"/>
+      </div>
+    </div>
+    <!--End of fifth row-->
+  </section>
+  <!--End of key preposiions section-->
+
+  <section class="partners-section">
+    <h4 class="text-center">We are loved and trusted</h4>
+    <div id="splide" class="splide mt-3">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="./assets/images/partners/tekedia.png" style="margin-top: 30px;">
+          </li>
+          <li class="splide__slide">
+            <img src="./assets/images/partners/workshed.png" style="margin-top: 10px;">
+          </li>
+          <li class="splide__slide">
+            <img src="./assets/images/partners/kreekafrica.png" style="margin-top: 30px;">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!--End of partners section-->
+
+  <section class="cl-section">
+    <h4 class="text-center">Power up, grow your business with powerful marketting tools</h4>
+      <div class="cl">
+        <div class="cl-inner p-3 border">
+            <div class="cl-header">
+              <h5 class="text-center">One for all and all for one</h5>
+            </div>
+            <div class="cl-body">
+              <p class="cl-text">Send newsletters, SMS and make social media posts in one place.</p>
+              <p class="cl-text">No need to switch from one app to another just to do one thing. Connect to our customers.</p>
+            </div>
+          </div>
+       
+        <div class="cl-inner p-3 border">
+            <div class="cl-header">
+             <h5 class="text-center"> No coding, no stress</h5>
+            </div>
+            <div class="cl-body">
+              <p class="cl-text">Create and send engaging and relevant emails, sms communication, social media networks with stunning templates.</p>
+              <p class="cl-text">Drag, drop, move, resize. Its simply a DIY project.</p>
+            </div>
+        </div>
+  
+        <div class="cl-inner p-3 border">
+            <div class="cl-header">
+              <h5 class="text-center">Automated, Highly personalized customer journeys</h5>
+            </div>
+            <div class="cl-body">
+              <p class="cl-text">Nurture your customers. Simplify on-boarding and with advances automation.</p>
+              <p class="cl-text">Trigger it and let your business sell itself.</p>
+          </div>
+        </div>
+  
+        <div class="cl-inner p-3 border">
+            <div class="cl-header">
+              <h5 class="text-center">Advanced analytics and segmentation</h5>
+            </div>
+            <div class="cl-body">
+              <p class="cl-text">Get access to intelligence to understand customer preferences, behaviors and trends in order to respond innovatively.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--End of first cl-section-->
+
+
+<section class="cl-section mt-5">
+  <h4 class="text-center">The personalized business support that your business deserves</h4>
+    <div class="cl">
+      <div class="cl-inner p-3 border">
+          <div class="cl-header">
+            <h5 class="text-center">Community</h5>
+          </div>
+          <div class="cl-body">
+            <p class="cl-text">Join an high impact business network, connect with other business in your area of business or in your locality.</p>
+            <p class="cl-text">Advertise your services and enjoy an amazing community offers.</p>
+          </div>
+        </div>
+     
+      <div class="cl-inner p-3 border">
+          <div class="cl-header">
+           <h5 class="text-center"> Business Resources</h5>
+          </div>
+          <div class="cl-body">
+            <p class="cl-text">Gain access to free lifetime access to business resources and tools. We are in your corner, always rooting for you to keep winning.</p>
+          </div>
+      </div>
+
+      <div class="cl-inner p-3 border">
+          <div class="cl-header">
+            <h5 class="text-center">Learning Center</h5>
+          </div>
+          <div class="cl-body">
+            <p class="cl-text">Lets take you back to the classroom with free courses that sharpen your knowledge and ultimately grow your business.</p>
+        </div>
+      </div>
+
+      <div class="cl-inner p-3 border">
+          <div class="cl-header">
+            <h5 class="text-center">Live Support</h5>
+          </div>
+          <div class="cl-body">
+            <p class="cl-text">We are right here where you need us, all day, everydy. Connect with us by a call or drop an email.</p>
+            <p class="cl-text">It does not matter how, all that matters is that we are always here for you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--End of second cl-section-->
+
+<section class="plan-section">
+  <h4 class="text-center">There is a plan for every business. Grow your business with our bundles or with email and sms</h4>
+  <div class="plan-section-cl mt-5">
+      <div class="plan-section-cl-inner plans text-center">
+        <div class="plans-header">
+            <div class="plan-img mt-4">
+              <img src="./assets/images/packages-box-svgrepo-com.svg" style="width: 150px;" alt="Plans">
+            </div>
+        </div>
+
+        <div class="plans-text text-center" style="margin-top: 60px;">
+            <a href="./bundles.html" class="btn btn-lg bundles-view-btn">See Main Bundles</a>
+        </div>
+      </div>
+
+      <div class="plan-section-cl-inner plans text-center">
+        <div class="plans-header">
+          <div class="plan-img text-center mt-4">
+          <img src="./assets/images/sms-svgrepo-com.svg" style="width: 150px;"  alt="SMS Credit">
+          </div>
+
+        </div>
+        <div class="plans-text text-center" style="margin-top: 60px;">
+            <a href="" class="btn btn-lg sms-credit-view-btn">See SMS Credit Packages</a>
+      </div>
+      </div>
+      <div class="plan-section-cl-inner plans text-center pb-5">
+        <div class="plans-header">
+          <img src="./assets/images/email-svgrepo-com.svg" class="mt-2" style="width: 150px;"  alt="SMS Credit">
+        </div>
+        <div class="plans-text text-center" style="margin-top: 70px;">
+          <a href="" class="btn btn-lg email-credit-view-btn">See Email Credit Packages</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="start-trial-section">
+  <div class="start-trial-box">
+    <div class="start-trial-inner">
+      <h3>Email and SMS marketting campaigns that actually work</h3>
+    </div>
+
+    <div class="start-trial-inner campaign-form">
+      <form>
+        <div class="input-group mb-3">
+          <input type="email" name="email" class="form-control border-0" 
+          placeholder="Email Address" 
+          aria-label="Email Address" aria-describedby="start-trial-btn" required>
+          <div class="input-group-append">
+            <button type="submit" class="btn btn-sm" id="start-trial-btn">Start for free</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <div class="pre-home-footer">
+    <div class="row pre-home-footer-cl">
+        <div class="col-lg-3 col-md-3 com-sm-12 col-xs-12 pre-home-footer-cl-inner">
+            <div class="header">
+                Products &amp; Solutions
+            </div>
+            <div class="vertical-menu">
+              <a href="#">Launch a campaign</a>
+              <a href="#">Generate Leads</a>
+              <a href="">Nurture Leads</a>
+              <a href="">Engage Customers</a>
+              <a href="">Send Bulk SMS</a>
+              <a href="">Send Bulk Email</a>
+              <a href="">Social Media Templates</a>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 com-sm-12 col-xs-12 pre-home-footer-cl-inner">
+          <div class="header">
+              Support
+          </div>
+          <div class="vertical-menu">
+            <a href="#">Customer love</a>
+            <a href="#">Sales support</a>
+           
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 com-sm-12 col-xs-12  pre-home-footer-cl-inner">
+          <div class="header">
+              About Us
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 com-sm-12 col-xs-12  pre-home-footer-cl-inner">
+          <div class="header">
+              Partners
+          </div>
+          
+        </div>
+    </div>
+    </div>
+
+<!--End of pre-footer-->
+
+ <footer class="home-footer">
+        <div class="f-box">
+            <div class="logo-box">
+              <img src="./assets/images/logo/kreeksend.png">
+              <h6 class="mt-3"><i class="fa fa-globe"></i> ENGLISH</h6>
+            </div>
+
+            <div class="social-links-box mt-3">
+              <ul class="social-links-ul">
+
+                <li>
+                  <a href="{{ get_setting('facebook_link') }}" target="_blank" >
+                    <i class="fab fa-lg fa-facebook-square text-white"></i></a>
+                </li>
+              <li>
+              <a href="{{ get_setting('linkedin_link') }}" target="_blank">
+                <i class="fab fa-lg fa-linkedin-in text-white"></i></a>
+              </li>
+              
+              <li>
+                <a href="{{ get_setting('facebook_link') }}" target="_blank" >
+                  <i class="fab fa-lg fa-facebook-f text-white"></i></a>
+              </li>
+              
+              <li>
+              <a href="{{ get_setting('twitter_link') }}" target="_blank">
+                <i class="fab fa-lg fa-twitter-square text-white"></i></a>
+              </li>
+              
+              <li>
+              <a href="{{ get_setting('instagram_link') }}" target="_blank">
+                <i class="fab fa-lg fab-instagram-square text-white"></i></a>
+              </li>
+              
+              <li>
+              <a href="{{ get_setting('tiktok_link') }}" target="_blank">
+                <i class="fab fa-lg fa-tiktok text-white"></i></a>
+              </li>
+              
+              <li>
+              <a href="" target="_blank">
+                <i class="fab fa-lg fa-youtube text-white"></i></a>
+              </li>
+              
+              <li>
+              <a href="" target="_blank" class="pinterest"><i class="fa fa-pinterest-p text-white"></i></a>
+              </li>
+              
+              </ul>
+            </div>
+        </div>
+
+        <div class="mt-3 policies">
+          <ul class="policies-ul">
+            <li>
+              <a href="./privacy-policy.html">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="./anti-spam-policy.html">Anti-Spam Policy</a>
+            </li>
+
+            <li>
+              <a href="./cookie-policy.html">Cookie Policy</a>
+            </li>
+
+            <li>
+              <a href="./terms-of-service.html">Terms of service</a>
+            </li>
+
+            <li>
+              <a href="./how-it-works.html">How it works</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="copyright-box text-center mt-4">
+            <h6 class="text-white font-weight-normal">Copyright &copy; 2021 kreeksend.com. All rights reserved</h6>
+        </div>
+
+    <div class="overlay-container">
+      <a href="#" class="text-center text-white" id="back-to-top" title="Back to top"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+  </footer>
+
+
+<!-- @include('cookieConsent::index') -->
+
+  
+  
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="./node_modules/@splidejs/splide/dist/js/splide.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="./assets/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+<script>   
+
+
+/*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+  
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('.overlay-container').fadeIn();
+    } else {
+        $('.overlay-container').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $(".overlay-container").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, 1000);
+        return false;
+    });
+
+});
+
+      var $ = jQuery.noConflict();
+      const $dropdown = $(".dropdown");
+      const $dropdownToggle = $(".dropdown-toggle");
+      const $dropdownMenu = $(".dropdown-menu");
+      const showClass = "show";
+ 
+  $(window).on("load resize", function() {
+  if (this.matchMedia("(min-width: 768px)").matches) {
+    $dropdown.hover(
+      function() {
+        const $this = $(this);
+        $this.addClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "true");
+        $this.find($dropdownMenu).addClass(showClass);
+      },
+      function() {
+        const $this = $(this);
+        $this.removeClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "false");
+        $this.find($dropdownMenu).removeClass(showClass);
+      }
+    );
+  } else {
+    $dropdown.off("mouseenter mouseleave");
+  }
+
+});
+     
+
+var ml4 = {};
+ml4.opacityIn = [0,1];
+ml4.scaleIn = [0.2, 1];
+ml4.scaleOut = 3;
+ml4.durationIn = 800;
+ml4.durationOut = 600;
+ml4.delay = 500;
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml4 .letters-1',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "linear",
+    duration: 1000
+  })
+  .add({
+    targets: '.ml4 .letters-1',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1200,
+    delay: ml4.delay
+  })
+  .add({
+    targets: '.ml4 .letters-2',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "linear",
+    duration: 1000
+  })
+  .add({
+    targets: '.ml4 .letters-2',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1200,
+    delay: ml4.delay
+  }).add({
+    targets: '.ml4 .letters-3',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "linear",
+    duration: 1000
+  })
+  .add({
+    targets: '.ml4 .letters-3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1200,
+    delay: ml4.delay
+  })
+  .add({
+    targets: '.ml4 .letters-4',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "linear",
+    duration: 1000
+  })
+  .add({
+    targets: '.ml4 .letters-4',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1200,
+    delay: ml4.delay
+  })
+  .add({
+    targets: '.ml4 .letters-5',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "linear",
+    duration: 1000
+  }).add({
+    targets: '.ml4 .letters-5',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1200,
+    delay: ml4.delay
+  })
+  .add({
+    targets: '.ml4',
+    opacity: 0,
+    duration: 500,
+    easing: "linear",
+    delay: 100
+  });
+
+   
+new Splide( '#splide', {
+	type   : 'loop',
+  rewind : true,
+	perPage: 3,
+	perMove: 1,
+  autoplay: true,
+  arrows:'',
+  pagination:'',
+} ).mount();
+
+  </script>
+
+   
+</body>
+</html>
